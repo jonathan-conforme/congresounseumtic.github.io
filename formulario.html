@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario de registro para el congreso</title>
+    <link rel="stylesheet" href="./css/formulario.css">
+</head>
+<body>
+<div class="contenedor">
+      <h1>Registro al congreso</h1>
+      <form action="https://formsubmit.co/jonathanconformetomala@outlook.es" method="POST">
+        <div class="campo">
+          <label for="nombre">Nombres:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="campo">
+          <label for="apellido">Apellido:</label>
+          <input type="text" id="apellido" name="apellido" required>
+        </div>
+        <div class="campo">
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" id="telefono" name="telefono" required>
+        </div>
+        <div class="campo">
+          <label for="apellido">Ciudad:</label>
+          <input type="text" id="Ciudad" name="Ciudad" required>
+        </div>
+        <div class="campo">
+        <label for="apellido">País:</label>
+          <input type="text" id="País" name="País" required>
+        </div>
+        <div class="campo">
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="correo electrónico" required>
+        </div>
+        <div class="campo">
+          <label for="tematica">Tema de interés:</label>
+          <select id="tematica" name="tematica">
+            <option name="tematica" value="Tecnología de la Información">Tecnología de la Información</option>
+            <option name="tematica" value="Ciudades Inteligentes LOT">Ciudades Inteligentes LOT</option>
+            <option name="tematica"value="Electrónica">Electrónica</option>
+            <option name="tematica"value="Inteligencia Artificial">Inteligencia Artificial</option>
+            <option name="tematica"value="Robótica">Robótica</option>
+            <option name="tematica" value="Ciencia de Datos">Ciencia de Datos</option>
+            <option name="tematica" value="Innovación Educativa">Innovación Educativa</option>
+          </select>
+        </div>
+        <label for="pago">Método de Pago:</label>
+        <select id="pago" name="pago" required>
+          <option name="pago" value="">Seleccione un método de pago</option>
+          <option name="pago" value="Tarjeta de Crédito">Tarjeta de Crédito</option>
+          <option name="pago" value="PayPal">PayPal</option>
+          <option name="pago" value="Transferencia Bancaria C.A PIchincha #0940340235">Transferencia Bancaria o Depósito</option>
+        </select>
+        <div class="botones">
+          <input type="reset" value="Borrar">
+          <input type="submit" value="Enviar">
+        </div>
+      </form>
+    </div>
+    
+    
+</body>
+</html>
