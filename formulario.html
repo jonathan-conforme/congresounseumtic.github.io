@@ -48,13 +48,20 @@
             <option name="tematica" value="Todas las tematica">Todos los Temas </option>
           </select>
         </div>
-        <label for="pago">Método de Pago:</label>
+        <label for="pago">Numeros de cuenta:</label>
         <select id="pago" name="pago" required>
-          <option name="pago" value="">Seleccione un método de pago</option>
-          <option name="pago" value="Tarjeta de Crédito">Tarjeta de Crédito</option>
-          <option name="pago" value="PayPal">PayPal</option>
-          <option name="pago" value="Transferencia Bancaria o Depósito">Transferencia Bancaria o Depósito</option>
+          <option value="">Numeros de cuenta para realizar el pago</option>
+          <option value="tarjeta">************</option>
+          <option value="paypal">**********</option>
+          <option value="paypal">*********</option>
         </select>
+        <body>
+          <h2>Subir el comprobante del pago</h2>
+          <form action="procesar.php" method="post" enctype="multipart/form-data">
+            <label for="imagen">Selecciona el comprobante donde realizo el pago:</label>
+            <input type="file" id="imagen" name="imagen" accept="image/*">
+          </form>
+        </body>
         <div class="botones">
           <input type="reset" value="Borrar">
           <input type="submit" value="Enviar">
