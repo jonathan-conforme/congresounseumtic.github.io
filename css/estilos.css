@@ -236,8 +236,7 @@ body {
     --color-cta: #5454D4;
     --color-items: #696871;
     transition: all 0.7s ease;
-    border-style: double;
-    border-color: #5454D4 ;
+    
 }
 .price__elemento{
     background-color: #e5e5f7;
@@ -251,8 +250,7 @@ body {
     --color-cta: #5454D4;
     --color-items: #696871;
     transition: all 0.7s ease;
-    border-style: double;
-    border-color: #5454D4 ;
+    
 }
     .price__elemento:hover{
         background-color: #006400;
