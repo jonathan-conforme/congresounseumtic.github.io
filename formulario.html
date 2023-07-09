@@ -12,25 +12,60 @@
       <h1>Registro al congreso</h1>
       <form action="https://formsubmit.co/jonathanconformetomala@outlook.es" method="POST">
         <div class="campo">
-          <label for="nombre">Nombres:</label>
+          <label for="nombre">Nombres y Apellidos:</label>
           <input type="text" id="nombre" name="nombre" required>
         </div> 
-        <div class="campo">
-          <label for="apellido">Apellido:</label>
-          <input type="text" id="apellido" name="apellido" required>
-        </div>
         <div class="campo">
           <label for="telefono">Teléfono:</label>
           <input type="tel" id="telefono" name="telefono" required>
         </div>
         <div class="campo">
-          <label for="apellido">Ciudad:</label>
-          <input type="text" id="Ciudad" name="Ciudad" required>
-        </div>
+          <label for="País">País: 
+          
+    <select>
+        <option id="País" name="País" value="AR">Argentina</option>
+        <option id="País" name="País" value="BO">Bolivia</option>
+        <option id="País" name="País"value="BR">Brasil</option>
+        <option id="País" name="País" value="CL">Chile</option>
+        <option id="País" name="País" value="CO">Colombia</option>
+        <option id="País" name="País" value="EC">Ecuador</option>
+        <option id="País" name="País" value="GY">Guyana</option>
+        <option id="País" name="País"value="PY">Paraguay</option>
+        <option id="País" name="País" value="PE">Perú</option>
+        <option id="País" name="País"value="SR">Surinam</option>
+        <option id="País" name="País" value="UY">Uruguay</option>
+        <option id="País" name="País"value="VE">Venezuela</option>
+    </select>
+  </label>
         <div class="campo">
-        <label for="apellido">País:</label>
-          <input type="text" id="País" name="País" required>
-        </div>
+        <label for="Ciudad">Ciudad:</label>
+        <select name="Provincia">  
+          <option name="Provincia" value="Azuay" selected="selected">Azuay</option>  
+          <option name="Provincia" value="Cañar">Cañar</option>  
+          <option name="Provincia" value="Loja">Loja</option>  
+          <option name="Provincia" value="Carchi">Carchi</option>  
+          <option name="Provincia" value="Imbabura">Imbabura</option>  
+          <option name="Provincia" value="Pichincha">Pichincha</option>  
+          <option name="Provincia" value="Cotopaxi">Cotopaxi</option>  
+          <option name="Provincia" value="Tungurahua">Tungurahua</option>  
+          <option name="Provincia" value="Bolívar">Bolívar</option>  
+          <option name="Provincia" value="Chimborazo">Chimborazo</option>  
+          <option name="Provincia" value="Sto. Domingo de los Tsachilas">Sto. Domingo de los Tsachilas</option>  
+          <option name="Provincia" value="Esmeraldas">Esmeraldas</option>  
+          <option name="Provincia" value="Manabí">Manabí</option>  
+          <option name="Provincia" value="Guayas">Guayas</option>  
+          <option name="Provincia" value="Los Ríos">Los Ríos</option>  
+          <option name="Provincia" value="El Oro">El Oro</option>  
+          <option name="Provincia" value="Santa Elena">Santa Elena</option>  
+          <option name="Provincia" value="Sucumbíos">Sucumbíos</option>  
+          <option name="Provincia" value="Napo">Napo</option>  
+          <option name="Provincia" value="Pastaza">Pastaza</option>  
+          <option name="Provincia" value="Orellana">Orellana</option>  
+          <option name="Provincia" value="Morona Santiago">Morona Santiago</option>  
+          <option name="Provincia" value="Zamora Chinchipe">Zamora Chinchipe</option>  
+          <option name="Provincia" value="Galápagos">Galápagos</option>  
+          <option name="Provincia"value="Antártida Ecuatoriana">Antártida Ecuatoriana</option>  
+          </select>  
         <div class="campo">
           <label for="email">Correo electrónico:</label>
           <input type="email" id="email" name="correo electrónico" required>
@@ -50,10 +85,8 @@
         </div>
         <label for="pago">Numeros de cuenta:</label>
         <select id="pago" name="pago" required>
-          <option value="">Numeros de cuenta para realizar el pago</option>
-          <option value="tarjeta">************</option>
-          <option value="paypal">**********</option>
-          <option value="paypal">*********</option>
+          <option value="">Banco Pichincha, Cta. Cte. # 2100208068, Sublínea: 190499</option>
+          
         </select>
         <body>
           <h2>Subir el comprobante del pago</h2>
