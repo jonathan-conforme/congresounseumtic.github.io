@@ -69,6 +69,31 @@
             <a href="formulario.html" class="cta">Inscripción</a>
         </section>
     </header>
+    <div class="countdown-container">
+        <div id="event-section" class="countdown-container">
+        <h1>II CONGRESO INTERNACIONAL DE TECNOLOGIAS DE LA INFORMACIÓN</h1>
+        <div id="countdown">
+          <div class="countdown-item">
+            <span class="countdown-value" id="days"></span>
+            <span class="countdown-label">Dias</span>
+          </div>
+          <div class="countdown-item">
+            <span class="countdown-value" id="hours"></span>
+            <span class="countdown-label">Hora</span>
+          </div>
+          <div class="countdown-item">
+            <span class="countdown-value" id="minutes"></span>
+            <span class="countdown-label">Minutos</span>
+          </div>
+          <div class="countdown-item">
+            <span class="countdown-value" id="seconds"></span>
+            <span class="countdown-label">Segundos</span>
+          </div>
+          
+        </div>
+        
+        <h1>Fecha: 23 de agosto de 2023</h1>
+        
     <section class="price container">
         <h2 class="subtitle" id="tematica">TEMÁTICAS</h2>
 
@@ -383,14 +408,8 @@
             <h3 class="footer__copyright">UNIVERSIDAD ESTATAL DEL SUR DE MANABÍ<br>CONGRESO INTERNACIONAL TECNOLOGÍA DE LA INFORMACIÓN<br>JIPIJAPA - MANABÍ - ECUADOR<br>COPYRIGHT &copy; 2023</h3>
         </section>
     </footer>
-    <script>
-        var fecha = new Date();
-        var opciones = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-        document.getElementById("fecha").innerHTML = fecha.toLocaleDateString('es-ES', opciones);
-        document.getElementById("fecha1").innerHTML = fecha.toLocaleDateString('es-ES', opciones);
-        document.getElementById("fecha2").innerHTML = fecha.toLocaleDateString('es-ES', opciones);
-    </script>
-    
+  
+    <script src="./js/script.js"></script>  
     <script src="./js/slider.js"></script>
     <script src="./js/questions.js"></script>
     <script src="./js/menu.js"></script>
