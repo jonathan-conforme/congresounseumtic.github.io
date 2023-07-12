@@ -916,7 +916,8 @@ video {
       .countdown-item {
         margin: 0 10px;
         padding: 10px;
-        background-color: #33a143;
+        background-color: #33a143; 
+        
         border-radius: 5px;
       }
       
