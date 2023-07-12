@@ -85,16 +85,12 @@
         </div>
         <label for="pago">Numeros de cuenta:</label>
         <select id="pago" name="pago" required>
-          <option value="">Banco Pichincha, Cta. Cte. # 2100208068, Sublínea: 190499</option>
+          <option value="Banco Pichincha Cta. Cte. # 2100208068, Sublínea: 190499">Banco Pichincha, Cta. Cte. # 2100208068, Sublínea: 190499</option>
           
         </select>
-        <body>
           <h2>Subir el comprobante del pago</h2>
-          <form action="procesar.php" method="post" enctype="multipart/form-data">
             <label for="imagen">Selecciona el comprobante donde realizo el pago:</label>
             <input type="file" id="imagen" name="imagen" accept="image/*">
-          </form>
-        </body>
         <div class="botones">
           <input type="reset" value="Borrar">
           <input type="submit" value="Enviar">
