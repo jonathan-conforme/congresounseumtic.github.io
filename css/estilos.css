@@ -260,45 +260,6 @@ body {
         
     
 }
-.contenedor-tarjetas {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 1.5em;
-    justify-content: space-between;
-    align-items: center;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    
-}
-    .price__element:hover{
-    background-color: #5454D4;
-    box-shadow: 15px 15px 10px  #696871;
-    --color-items: #fff;
-    transform: translateY(-3%);
-    
-}
-.price__table1{
-    padding-top: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2.5em;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.price__element1{
-    background-color: #e5e5f7;
-    text-align: center;
-    border-radius: 10px;
-    width: 370px;
-    padding: 25px 40px;
-    --color-plan: #696871;
-    --color-price: #1D293F;
-    --bg-cta: #fff;
-    --color-cta: #5454D4;
-    --color-items: #696871;
-    transition: all 0.7s ease;
-    
-}
 .price__element1{
     background-color: #e5e5f7;
     text-align: center;
@@ -331,8 +292,8 @@ body {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     
 }
-    .price__element1:hover{
-    background-color: #78d454;
+    .price__element:hover{
+    background-color: #5454D4;
     box-shadow: 15px 15px 10px  #696871;
     --color-items: #fff;
     transform: translateY(-3%);
