@@ -272,6 +272,7 @@ body {
     --color-cta: #5454D4;
     --color-items: #696871;
     transition: all 0.7s ease;
+    margin: 10px;
     
 }
     .price__elemento1:hover{
@@ -279,6 +280,7 @@ body {
         box-shadow: 15px 15px 10px  #7FFF00;
         --color-items: #fff;
         transform: translateY(-3%);
+        margin: 10px;
         
     
 }
