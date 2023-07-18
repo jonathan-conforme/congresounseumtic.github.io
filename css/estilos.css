@@ -277,7 +277,14 @@ body {
     transform: translateY(-3%);
     
 }
-
+.price__table1{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5em;
+    justify-content: space-evenly;
+    align-items: center;
+}
 .price__element1{
     background-color: #e5e5f7;
     text-align: center;
