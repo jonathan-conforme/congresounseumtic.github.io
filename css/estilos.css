@@ -260,28 +260,7 @@ body {
         
     
 }
-.price__element1{
-    background-color: #e5e5f7;
-    text-align: center;
-    border-radius: 10px;
-    width: 370px;
-    padding: 25px 40px;
-    --color-plan: #D8BFD8;
-    --color-price: #D8BFD8;
-    --bg-cta: #fff;
-    --color-cta: #5454D4;
-    --color-items: #696871;
-    transition: all 0.7s ease;
-    
-}
-    .price__element1:hover{
-        background-color: #006400;
-        box-shadow: 15px 15px 10px  #7FFF00;
-        --color-items: #fff;
-        transform: translateY(-3%);
-        
-    
-}
+
 .contenedor-tarjetas {
     display: flex;
     justify-content: space-between;
