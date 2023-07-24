@@ -254,7 +254,7 @@ body {
 }
     .price__elemento:hover{
         background-color: #006400;
-        box-shadow: 15px 15px 10px  #7FFF00;
+        box-shadow: 15px 15px 10px  #4CAF50;
         --color-items: #fff;
         transform: translateY(-3%);
         
@@ -508,6 +508,7 @@ video {
 
 .footer{
     background-color: #1D293F;
+    text-align: center;
 }
 
 .footer__title{
