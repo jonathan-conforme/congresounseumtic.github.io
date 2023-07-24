@@ -282,7 +282,7 @@ body {
     --color-cta: #5454D4;
     --color-items: #696871;
     transition: all 0.7s ease;
-    box-shadow: 15px 15px 10px  #33FFC1;
+
     background-color: #33FF96 ;
   }
   .card img {
